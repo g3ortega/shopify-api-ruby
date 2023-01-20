@@ -287,7 +287,7 @@ module ShopifyAPI
     sig { returns(T.nilable(String)) }
     attr_reader :source_url
 
-    sig { returns(T.nilable(Float)) }
+    sig { returns(T.nilable(String)) }
     attr_reader :subtotal_price
 
     sig { returns(T.nilable(T::Hash[T.untyped, T.untyped])) }
